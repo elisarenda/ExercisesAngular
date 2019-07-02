@@ -1,0 +1,14 @@
+<div style="border:2px solid rosybrown;padding:2% 2% 2% 2%;margin: 3% 10% 10% 10%;">
+  <ul>
+    <li>{{name}}</li>
+    <li>{{age}}</li>
+    <li>{{numArray}}</li>
+    <li>{{strArray}}</li>
+  </ul>
+
+  <ul>
+    <li *ngFor="let arr of numArray">
+      {{arr}}
+    </li>
+  </ul>
+</div>
